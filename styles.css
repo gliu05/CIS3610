@@ -192,7 +192,8 @@
 
 /* Hero Section */
 .hero {
-  background-image: url("beautiful.jpg"); 
+  background-image: url("foreal.JPG"); 
+  background: linear-gradient(to right, #161616, #000000);
   padding: 200px 0;
 }
 
