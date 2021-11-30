@@ -1,1 +1,1 @@
-Gordon Liu and Daniel Mendez Group Project Big Bear
+Gordon Liu and Delfino Mendez Group Project Big Bear
