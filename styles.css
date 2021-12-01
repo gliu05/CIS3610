@@ -305,12 +305,12 @@
 }
 
 .main__content h2 {
-  font-size: 1rem;
-  background: #ff8177; /* fallback for old browsers */
+  font-size: 2rem;
+  background: #f1f1f1; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #9114ff,
-    #da22ff
+    #fdfcfd,
+    #f6f4f7
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
