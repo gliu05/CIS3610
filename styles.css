@@ -293,11 +293,15 @@
 
 .main__content h1 {
   font-size: 2rem;
-  background: #f1f1f1; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-  to right,
-  #fdfcfd,
-  #f6f4f7
+  background-color: #f7f4f5;
+  background-image: linear-gradient(to top, #f5f3f4 0%, #f3eff0 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 32px;
 }
 
 .main__content h2 {
@@ -307,6 +311,18 @@
     to right,
     #fdfcfd,
     #f6f4f7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f8f7f8,
+    #f3f1f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
