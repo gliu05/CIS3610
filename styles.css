@@ -305,7 +305,7 @@
 }
 
 .main__content h2 {
-  font-size: 4rem;
+  font-size: 1rem;
   background: #ff8177; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
